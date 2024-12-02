@@ -1,0 +1,1 @@
+CREATE DATABASE sentimental_analysis_db;
