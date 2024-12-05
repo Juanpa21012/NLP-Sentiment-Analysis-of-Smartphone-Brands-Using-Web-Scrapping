@@ -48,6 +48,7 @@ SELECT COUNT(*) AS Total_mercadolibre_reviews FROM mercadolibre_reviews;
 -- Número de filas en la tabla combined_reviews
 SELECT COUNT(*) AS Total_combined_reviews FROM all_reviews;
 
+DROP TABLE IF EXISTS all_reviews;
 
 
 -- EXPLORATORY DATA ANALYSIS
@@ -95,6 +96,9 @@ FROM
     combined_reviews
 WHERE 
     comentario IS NOT NULL AND comentario <> '';
+
+
+
 
 
 
